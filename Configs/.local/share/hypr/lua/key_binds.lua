@@ -111,13 +111,13 @@ hl.bind(MOD .. " + Down", hl.dsp.focus({direction = "down"}), _F)
 
 -- Window switcher
 -- Handles Alt Tab like Behavior like browser
-_F = {description = "[Window Management|alt-tab window switcher] cycle next", transparent = true}
-hl.bind("ALT+TAB", hl.dsp.exec_cmd(hyde.sh.altab("--next")), _F)
-_F = {description = "[Window Management|alt-tab window switcher] cycle previous", transparent = true}
-hl.bind("ALT+SHIFT+TAB", hl.dsp.exec_cmd(hyde.sh.altab("--prev")), _F)
-_F = {description = "[Window Management|alt-tab window switcher] switch", release = true, transparent = true}
-hl.bind("ALT + ALT_R", hl.dsp.exec_cmd(hyde.sh.altab("--apply")), _F)
-hl.bind("ALT + ALT_L", hl.dsp.exec_cmd(hyde.sh.altab("--apply")), _F)
+-- _F = {description = "[Window Management|alt-tab window switcher] cycle next", transparent = true}
+-- hl.bind("ALT+TAB", hl.dsp.exec_cmd(hyde.sh.altab("--next")), _F)
+-- _F = {description = "[Window Management|alt-tab window switcher] cycle previous", transparent = true}
+-- hl.bind("ALT+SHIFT+TAB", hl.dsp.exec_cmd(hyde.sh.altab("--prev")), _F)
+-- _F = {description = "[Window Management|alt-tab window switcher] switch", release = true, transparent = true}
+-- hl.bind("ALT + ALT_R", hl.dsp.exec_cmd(hyde.sh.altab("--apply")), _F)
+-- hl.bind("ALT + ALT_L", hl.dsp.exec_cmd(hyde.sh.altab("--apply")), _F)
 
 -- # Resize kwindows
 

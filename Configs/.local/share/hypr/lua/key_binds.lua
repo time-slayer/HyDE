@@ -77,8 +77,8 @@ _F = {description = "[Window Management] set a window’s pseudotiling state"}
 hl.bind("ALT + P", hl.dsp.window.pseudo(), _F)
 
 -- bindd = $mainMod, G, $d toggle group,exec, hydectl tabs
-_F = {description = "[Window Management] cycle fullscreen"}
-hl.bind("SHIFT + F11", cycle_fullscreen, _F)
+-- _F = {description = "[Window Management] cycle fullscreen"}
+-- hl.bind("SHIFT + F11", cycle_fullscreen, _F)
 _F = {description = "[Window Management] toggle pin"}
 hl.bind(MOD .. " + SHIFT + F", hl.dsp.exec_cmd(hyde.sh.window.pin()), _F)
 _F = {description = "[Window Management] logout menu"}

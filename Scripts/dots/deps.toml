@@ -5,7 +5,7 @@ pacman = [
   "lua", # for lua runtime
   "luarocks", # Core scripts lib
   "libgirepository", # headers and pkg-config data the lgi rock is built against
-  "uwsm", # A standalone Wayland session manager
+  # "uwsm", # A standalone Wayland session manager
   "pipewire", # audio/video server
   "pipewire-alsa", # pipewire alsa client
   "pipewire-audio", # pipewire audio client
@@ -24,7 +24,7 @@ pacman = [
   "playerctl", # media controls
   "udiskie", # manage removable media
   # Display Manager
-  "sddm", # display manager for KDE plasma
+  # "sddm", # display manager for KDE plasma
   "qt5-quickcontrols", # for sddm theme ui elements
   "qt5-quickcontrols2", # for sddm theme ui elements
   "qt5-graphicaleffects", # for sddm theme effects

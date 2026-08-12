@@ -10,7 +10,7 @@ local blur_layers =
       "rofi",
       "notifications",
       "swaync-(notification-window|control-center)",
-      "waybar",
+      -- "waybar",
       "logout_dialog"
     }
   },

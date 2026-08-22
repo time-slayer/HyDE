@@ -28,7 +28,7 @@ local floating =
       "nm-(applet|connection-editor)",
       "hyprpolkitagent",
       "console-dropdown",
-      "org\\.kde\\.dolphin",
+      -- "org\\.kde\\.dolphin",
       ".*dialog.*",
       "[Xx]dg-desktop-portal-gtk",
       "org\\.freedesktop\\.impl\\.portal\\.desktop\\.(hyprland|gtk)"

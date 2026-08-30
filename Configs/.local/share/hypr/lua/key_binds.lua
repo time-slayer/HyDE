@@ -80,7 +80,7 @@ hl.bind("ALT + P", hl.dsp.window.pseudo(), _F)
 -- _F = {description = "[Window Management] cycle fullscreen"}
 -- hl.bind("SHIFT + F11", cycle_fullscreen, _F)
 _F = {description = "[Window Management] toggle pin"}
-hl.bind(MOD .. " + SHIFT + F", hl.dsp.exec_cmd(hyde.sh.window.pin()), _F)
+hl.bind(MOD .. " + I", hl.dsp.exec_cmd(hyde.sh.window.pin()), _F)
 _F = {description = "[Window Management] logout menu"}
 hl.bind("CTRL + ALT + DELETE", hl.dsp.exec_cmd(hyde.sh.session.logout.launcher()), _F)
 -- ALT_R is a keysym, not a modifier: "ALT_R + CONTROL_R" resolves to a bare

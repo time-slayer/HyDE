@@ -13,7 +13,7 @@
     # deployed both, whichever one the installer was asked for.
     include = [
         "../dots/deps.toml",
-        "../dots/electron.toml",
+        # "../dots/electron.toml",
         "../dots/baloofilerc.toml",
         "../dots/dolphin.toml",
         "../dots/kitty.toml",

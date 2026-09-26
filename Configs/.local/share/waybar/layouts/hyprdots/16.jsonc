@@ -33,7 +33,7 @@
         "modules": [
             "keyboard-state",
             "custom/hyprsunset",
-            "custom/caffeine",
+            "idle_inhibitor",
             "clock",
             "custom/updates",
             "custom/keybindhint",

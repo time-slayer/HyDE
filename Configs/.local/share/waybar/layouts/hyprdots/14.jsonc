@@ -32,7 +32,7 @@
     "group/pill#left2": {
         "orientation": "inherit",
         "modules": [
-            "custom/caffeine",
+            "idle_inhibitor",
             "clock",
             "custom/spotify"
         ]

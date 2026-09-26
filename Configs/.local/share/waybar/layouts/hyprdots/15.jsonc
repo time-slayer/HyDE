@@ -30,7 +30,7 @@
         "orientation": "inherit",
         "modules": [
             "custom/cava",
-            "custom/caffeine",
+            "idle_inhibitor",
             "clock"
         ]
     },
